@@ -9,5 +9,6 @@ services:
     volumes:
       - ./oradata:/opt/oracle/oradata
     environment:
-      - ORACLE_PWD=oracle
-      - ORACLE_PDB=oracle
+      - ORACLE_PWD=pwd
+      - ORACLE_PDB=pdb
+      - ORACLE_SID=sid
