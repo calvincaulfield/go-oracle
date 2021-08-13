@@ -1,0 +1,7 @@
+version: "3"
+services:
+  main:
+    image: calvincaulfield/go-oracle
+    build:
+      context: .
+    network_mode: host
